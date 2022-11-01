@@ -32,6 +32,7 @@ void lineDrawing(int x1, int y1, int x2, int y2) {
             int y = y1 + (i - x1) * dy / dx;
             cout << "(" << i << "," << y << ")" << endl;
         }
+        return;
     } else if(x2 == x1) {
         if(y2 < y1) {
             for (int i = y2; i <= y1; i++) {
@@ -53,6 +54,7 @@ void lineDrawing(int x1, int y1, int x2, int y2) {
             cout << "(" << i << "," << y << ")" << endl;
         }
     }
+
 }
 
 int main (){
