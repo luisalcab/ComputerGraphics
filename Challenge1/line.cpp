@@ -28,6 +28,10 @@ void lineDrawing(int x1, int y1, int x2, int y2) {
         temp = y1;
         y1 = y2;
         y2 = temp;
+        for (double i = x1; i <= x2; i += 0.1) {
+            double y = y1 + (i - x1) * dy / dx;
+            cout << "(" << i << "," << y << ")" << endl;
+        }
     } else if(x2 == x1) {
         if(y2 < y1) {
             for (double i = y2; i <= y1; i += 0.1) {
@@ -43,11 +47,11 @@ void lineDrawing(int x1, int y1, int x2, int y2) {
             }
             return;
         }
-    }
-
-    for (double i = x1; i <= x2; i += 0.1) {
-        double y = y1 + (dy/dx) * (i - x1);
-        cout << "(" << i << "," << y << ")" << endl;
+    } else {
+        for (double i = x1; i <= x2; i += 0.1) {
+            double y = y1 + (i - x1) * dy / dx;
+            cout << "(" << i << "," << y << ")" << endl;
+        }
     }
 }
 
