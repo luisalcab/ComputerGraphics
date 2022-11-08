@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1667928316 source:c:\users\luisa\documents\documents\tec\sem 5\bloque 2\opengl\lines\main.cpp
+	<GL/glut.h>
+
+1667931374 source:c:\users\luisa\documents\documents\tec\sem 5\bloque 2\computergraphics\opengl\lines\main.cpp
+	<GL/glut.h>
+	<iostream>
+
