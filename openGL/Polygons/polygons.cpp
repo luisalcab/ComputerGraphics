@@ -1,3 +1,16 @@
+// Polygons
+/*
+Author: 
+Luis Alberto Alcántara Cabrales A01634185
+
+Description:
+This program draws a polygon with the number of 
+sides randomly generated between 5 and 12.
+
+Date:
+11/9/2022
+*/
+
 #include <GL/glut.h>
 #include <math.h>
 #include <stdlib.h>
