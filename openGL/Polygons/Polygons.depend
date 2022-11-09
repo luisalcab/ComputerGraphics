@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1668004997 source:c:\users\luisa\documents\documents\tec\sem 5\bloque 2\computergraphics\opengl\polygons\polygons.cpp
+	<GL/glut.h>
+	<math.h>
+	<stdlib.h>
+
